@@ -28,7 +28,6 @@ System.out.println(newList);
 	  Integer i1 =list5.stream()
               .max((x,y)->x.compareTo(y))
 	          .get();
-	
 	  System.out.println(i1);
 	  
 	  
